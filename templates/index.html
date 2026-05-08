@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Health AI | Professional Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Futuristic Aurora Background -->
+    <div class="aurora-container">
+        <div class="aurora-orb orb-1"></div>
+        <div class="aurora-orb orb-2"></div>
+        <div class="aurora-orb orb-3"></div>
+    </div>
+
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-microchip"></i>
+                <div>
+                    <h1>Quantum Health</h1>
+                    <p>Advanced Public Health AI</p>
+                </div>
+            </div>
+            <div class="status-indicators">
+                <select id="language-select" class="badge-select">
+                    <option value="auto">Auto Intelligence</option>
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <option value="kn">Kannada</option>
+                    <option value="te">Telugu</option>
+                </select>
+                <span id="mode-indicator" class="badge">Hybrid Mode</span>
+            </div>
+        </header>
+
+        <div class="chat-window" id="chat-window">
+            <div class="message system-message">
+                Greeting. Intelligence modules active. I am your Quantum Health Assistant. How can I assist your health
+                queries today?
+            </div>
+        </div>
+
+        <div class="input-area">
+            <div id="voice-status" class="voice-status"></div>
+            <div class="input-controls">
+                <button id="clear-btn" title="Purge History"><i class="fas fa-bolt"></i></button>
+                <div class="input-wrapper">
+                    <input type="text" id="user-input" placeholder="Initiate health inquiry..." autocomplete="off">
+                    <button id="mic-btn" title="Neural Input"><i class="fas fa-microphone-alt"></i></button>
+                </div>
+                <button id="send-btn" title="Transmit"><i class="fas fa-satellite-dish"></i></button>
+            </div>
+        </div>
+
+        <footer>
+            <small>&copy; 2025 Quantum Health Systems | Neural Subsystem Active | Disclaimer: Consult human
+                professionals for medical finality.</small>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
